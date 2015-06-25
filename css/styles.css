@@ -1,0 +1,107 @@
+
+.header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.top-menu, .menu-links {
+  text-align: center;
+}
+.search {
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.search .form-control {
+  width:50%;
+  float: left;
+  margin-right: 20px;
+}
+.menu-links {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+}
+ .menu-links .col-md-2 {
+  width: 12% !important;
+  border-right: 1px solid #ccc;
+}
+.menu-links .col-md-2:last-child {
+  border-right: none;
+}
+.menu-links .col-md-2:hover {
+  border-bottom: 2px solid #7a7a7a;
+}
+.bx-wrapper {
+  width: 65%;
+}
+.ads, .bestsellers  {
+  margin-left: 18%;
+}
+
+.ads img, .bestsellers img {
+  width: 150px;
+  margin-top: 20px;
+}
+.ads div.ad-text, .bestsellers div.ad-text {
+  width: 120px;
+  text-align: center;
+  margin-left: 45px;
+  padding: 10px 0;
+}
+.ads .col-md-4, .bestsellers .col-md-4 {
+  text-align: center;
+  width: 220px;
+  border: 1px solid #ccc;
+  margin-right: 115px;
+}
+.ads .btn {
+  margin-bottom: 20px;
+}
+.bestsellers-ad {
+  border-bottom: 1px solid #ccc;
+  margin-left: 17%;
+  margin-top: 30px;
+  width: 65%;
+}
+.bestsellers {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.bestsellers-ad .col-md-6:last-child {
+  text-align: right;
+}
+.footer {
+  background-color: #ccc;
+}
+.footer .list-group-item {
+  background-color: transparent;
+  border: none;
+ }
+ .footer .col-md-4 {
+    width: 15%;
+ }
+ .footer .quick-links {
+  float: left;
+  margin-left: 21%;
+ }
+ .footer li {
+  padding-left: 0;
+ }
+ .footer .help {
+  float: left;
+  margin-left: 12%;
+ }
+ .footer .connect {
+  margin-left: 2%;
+ }
+ .connect img {
+  margin-left: 5%
+ }
+ .connect .facebook {
+  margin-left: 10%;
+ }
+ .footer .list-group-item:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+ }
