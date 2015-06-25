@@ -4,9 +4,20 @@
   padding-bottom: 10px;
   margin-top: 10px;
 }
-.top-menu, .menu-links {
+.menu-links {
   text-align: center;
 }
+.top-menu {
+  text-align: right;
+  width: 750px;
+}
+.top-menu .col-md-3 {
+  text-align: center;
+  width: 20%;
+}
+.top-menu .col-md-3:hover {
+  border-bottom: 3px solid #ccc;
+} 
 .search {
   margin-left: 30%;
   margin-top: 20px;
@@ -19,17 +30,17 @@
 .menu-links {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 30%;
+  margin-left: 28%;
 }
  .menu-links .col-md-2 {
-  width: 12% !important;
+  width: 10% !important;
   border-right: 1px solid #ccc;
 }
 .menu-links .col-md-2:last-child {
   border-right: none;
 }
 .menu-links .col-md-2:hover {
-  border-bottom: 2px solid #7a7a7a;
+  background-color: #ccc;
 }
 .bx-wrapper {
   width: 65%;
@@ -105,3 +116,94 @@
   font-weight: bold;
   text-decoration: underline;
  }
+
+ /* product page */
+ .tee-description {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+ }
+ .image img {
+  width: 300px;
+  border:1px solid #ccc;
+ }
+ .image img:hover {
+  border: none;
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+ }
+ .title {
+  font-weight: bold;
+  font-size: 20px;
+ }
+ .title img {
+  width: 12%;
+ }
+ .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: brown;
+  margin-top: 15px;
+ }
+ .size {
+  margin: 30px 0;
+ }
+ .image {
+  padding-left: 580px;
+ }
+ .image div {
+  text-align: center;
+  width: 300px;
+ }
+ .buy-btn {
+  font-size: 18px;
+  padding: 10px 25px;
+  background-color: #ec971f;
+  color: white;
+  border-color: d58512;
+ }
+ .buy-btn:hover {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+ }
+ .size .btn-primary:focus, .size .btn-primary:active, 
+ .size .btn-primary.active, 
+ .size .open>.dropdown-toggle.btn-primary {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+ }
+ .size .btn {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+ }
+ .buy-btn {
+  margin-bottom: 10px;
+ }
+ .desc h4 {
+  margin-top: 20px;
+ }
+ .description {
+  width: 50%;
+ }
+ .details {
+  margin: 40px 0;
+ }
+ .details td {
+  padding: 8px 50px;
+ }
+ .details .left-details {
+  width:20%;
+  margin-left: 29%;
+  margin-top: 30px;
+ }
+ .details .right-details {
+  width: 27%;
+  margin-left: 20px;
+  border-left: 1px solid #ccc; 
+}
+
