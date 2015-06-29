@@ -44,4 +44,8 @@
   div.calculate-ship {
     text-align: left;
   }
+  .registration {
+    width: 392px;
+    margin-left: 0;
+  }
 }
