@@ -48,4 +48,15 @@
     width: 392px;
     margin-left: 0;
   }
+  .details .left-details,
+  .details .right-details {
+    margin-left: 0;
+    width: 362px;
+  }
+  .details .right-details {
+    border-left: none;
+  }
+  div.reviewer div {
+    margin-left: 0;
+  }
 }
