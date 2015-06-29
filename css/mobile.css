@@ -26,4 +26,22 @@
   .footer .connect {
     width: 392px;
   }
+
+  td,th,tr {
+    display: block;
+  }
+  thead {
+    display: none;
+  }
+
+  table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: none;
+  }
+  div.quote {
+    width: 236px;
+    margin-left:0;
+  }
+  div.calculate-ship {
+    text-align: left;
+  }
 }
