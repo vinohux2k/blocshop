@@ -1,0 +1,29 @@
+@media only screen and (max-width:767px) {
+  .top-menu {
+    text-align: left;
+  }
+  .search {
+    margin-left: 10%;
+  }
+  .menu-links {
+    margin-left: 0;
+  }
+  .footer .quick-links {
+    margin-left: 0;
+  }
+  .footer .help,
+  .footer .connect,
+  .connect .facebook,
+  .connect img {
+    margin-left: 0;
+  }
+  .footer .quick-links {
+    width: 142px;
+  }
+  .footer .help {
+    width: 115px;
+  }
+  .footer .connect {
+    width: 392px;
+  }
+}
