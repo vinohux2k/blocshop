@@ -56,7 +56,19 @@
   .details .right-details {
     border-left: none;
   }
-  div.reviewer div {
+  div.reviewer div, .payment, .billing {
     margin-left: 0;
+  }
+  div.reviewer div.price {
+    margin-left: 30%;
+  }
+  .payment .card-num, .payment .verify {
+    width: 60%;
+  }
+  div.total {
+    display: none;
+  }
+  .billing input {
+    width: 80%;
   }
 }
