@@ -56,7 +56,8 @@
   .details .right-details {
     border-left: none;
   }
-  div.reviewer div, .payment, .billing {
+  div.reviewer div, .payment, .billing,
+  .payment .dropdown {
     margin-left: 0;
   }
   div.reviewer div.price {
@@ -67,6 +68,12 @@
   }
   div.total {
     display: none;
+  }
+  .payment .card-num, .payment .month, .payment .verify {
+    display: block;
+  }
+  .payment label {
+    padding-left: 0;
   }
   .billing input {
     width: 80%;
