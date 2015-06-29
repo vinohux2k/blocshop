@@ -38,6 +38,7 @@
       </button>
     </div> <!-- end search -->
 
+
     <div class="row menu-links">
       <span class="col-md-2"> Animals </span>
       <span class="col-md-2"> Birds </span>
@@ -47,52 +48,48 @@
       <span class="col-md-2"> Smarty </span>
     </div><!-- end main menu -->
 
-    <ul class="bxslider">
-        <li><img src="images/slideimage1.png"/></li>
-        <li><img src="images/slideimage1.png"/></li>
-  </ul>
-
-  <div class="row ads">
-    <div class="col-md-4">
-      <img src="tshirts/smart-tshirt1.png"/>
-      <div class="ad-text"> Newest collection of the year.</div>
-      <button type="button" class="btn btn-default">Shop Now</button>
-    </div>
-    <div class="col-md-4">
-      <img src="tshirts/funnytshirt-purple.png"/>
-      <div class="ad-text"> Newest colors of the season.</div>
-      <button type="button" class="btn btn-default">Shop Now</button>
-    </div>
-    <div class="col-md-4">
-      <img src="tshirts/funnytshirt-yellow.png"/>
-      <div class="ad-text"> Season Clearance <br/> Upto 60% OFF.</div>
-      <button type="button" class="btn btn-default">Shop Now</button>
-    </div>
-  </div><!-- end of ads -->
 
 
-  <div class="row bestsellers-ad">
-    <div class="col-md-6"> <h4>Bestsellers</h4></div>  
-    <div class="col-md-6"><h6>See All »</h6></div> 
-  </div> <!-- end of bestsellers-ad -->
+  <div class="row registration">
+    <div class="col-md-6">
+      <h3> Existing Users? Login Here! </h3>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Email">
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Password">
+      </div>
+      <label class="checkbox-inline"><input type="checkbox" value="">Keep me signed in</label>
+      <a href="#" class="forgot"> Forgot your password? </a>
+      <button type="button" class="btn btn-warning buy-btn register">Submit</button>
+      
+    </div> <!-- col-md-6 -->
 
+    <div class="col-md-6">
+      <h3> New To Blocshop? Register Now! </h3>
+      
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="First Name">
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Email">
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Password">
+      </div>
+      <div class="form-group">
+          <input type="text" class="form-control card-num" id="usr" placeholder="Re-enter Password">
+      </div>
+      <label class="checkbox-inline"><input type="checkbox" value="">Sign up for awesome coupons and offers</label>
+      <button type="button" class="btn btn-warning buy-btn register">Register</button>
+    </div> <!-- col-md-6 -->
 
-  <div class="row bestsellers">
-    <div class="col-md-4">
-      <img src="tshirts/smart-tshirt3.png"/>
-      <div class="ad-text"> Green Famous <br /> <b>$24.99</b></div>
-    </div>
-    <div class="col-md-4">
-      <img src="tshirts/smart-tshirt1.png"/>
-      <div class="ad-text"> Blue Chocolate <br /> <b>$34.99</b></div>
-    </div>
-    <div class="col-md-4">
-      <img src="tshirts/smart-tshirt2.png"/>
-      <div class="ad-text"> Brick Brother <br /> <b>$29.99</b></div>
-    </div>
-  </div><!-- end of bestsellers -->
+  </div>  <!-- end row -->  
 
-  <div class="row footer">
+<div class="row footer">
     <div class="col-md-4 quick-links">
           <h4> Quick Links </h4>
           <ul class="list-group">
@@ -122,11 +119,3 @@
   </div>  <!-- end of container-fluid -->
   </body>
   </html>
-
-  <script>
-  $(document).ready(function(){
-    $('.bxslider').bxSlider({
-      auto: true
-    });
-  });
-  </script>

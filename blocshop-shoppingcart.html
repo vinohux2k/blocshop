@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- jQuery library (served from Google) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  </head>
+  <body>
+  <div class="container-fluid">
+
+
+    <div class="row header">
+      <div class="col-md-6">
+        <img src="images/blocshop-logo.png"/>
+      </div> <!-- end div col-md-6 -->
+      <div class="col-md-6 top-menu">
+        <span class="col-md-3">Login</span>
+        <span class="col-md-3">Cart</span>
+        <span class="col-md-3">Help</span>
+      </div> <!-- end div top-menu-->
+    </div> <!-- end header -->
+
+
+    <div class="row search">
+      <input type="text" class="form-control" id="usr">
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </div> <!-- end search -->
+
+
+    <div class="row menu-links">
+      <span class="col-md-2"> Animals </span>
+      <span class="col-md-2"> Birds </span>
+      <span class="col-md-2"> Emojis </span>
+      <span class="col-md-2"> Funny </span>
+      <span class="col-md-2"> Hand </span>
+      <span class="col-md-2"> Smarty </span>
+    </div><!-- end main menu -->
+
+    <div class="row cart">
+      <h3> Shopping cart </h3>
+      <table class="table table-striped cart">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="tshirts/emojitshirt-blue.png"/></td>
+        <td>Naughty Blue Tee <br/> Small</td>
+        <td>$24.99</td>
+        <td><div class="dropdown quantity">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+          </ul>
+      </div> <!-- end size -->
+    </td>
+        <td>$24.99</td>
+      </tr>
+      <tr>
+        <td><img src="tshirts/emojitshirt-orange.png"/></td>
+        <td>Vibrant Orange Tee <br/> Large</td>
+        <td>$34.99</td>
+        <td><div class="dropdown quantity">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+          </ul>
+      </div> <!-- end size --></td>
+        <td>$34.99</td>
+      </tr>
+      <tr>
+        <td><img src="tshirts/emojitshirt-green.png"/></td>
+        <td>Groovy Green Tee <br/> X Small</td>
+        <td>$19.99</td>
+        <td><div class="dropdown quantity">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+          </ul>
+      </div> <!-- end quantity --></td>
+        <td>$19.99</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td><td></td>
+        <td>Subtotal</td>
+        <td>$74.99</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td><td></td>
+        <td>Tax</td>
+        <td>$2.27</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td><td></td>
+        <td>Shipping</td>
+        <td>$7.87</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td><td></td>
+        <td>Total</td>
+        <td>$86.97</td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-warning buy-btn">Continue Shopping</button></td>
+        <td></td><td></td>
+        <td></td>
+        <td><button type="button" class="btn btn-warning buy-btn">Checkout</button></td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+
+  <div class="calculate-ship">Calculate shipping</div>  
+  <div class="panel panel-default quote">
+  <div class="panel-body">Estimate your shipping cost</div>
+  <div class="form-group country">
+  <label for="country">Country</label>
+  <input type="text" class="form-control country" id="usr">
+</div>
+<div class="form-group zipcode">
+  <label for="zip">Zipcode</label>
+  <input type="password" class="form-control zipcode" id="pwd">
+</div>
+</div> <!-- end of quote -->
+
+
+<div class="row frequently-ad">
+    <div class="col-md-6"> <h4>Frequently Bought Tees</h4></div>  
+    <div class="col-md-6"><h6>See All »</h6></div> 
+  </div> <!-- end of frequently-ad -->
+
+<div class="row frequently">
+    <div class="col-md-4">
+      <img src="tshirts/emojitshirt-slevelss1.png"/>
+      <div class="ad-text"> Green Famous <br /> <b>$24.99</b></div>
+      <img class="rating" src="images/4star.png"/>
+    </div>
+    <div class="col-md-4">
+      <img src="tshirts/emojitshirt-sleveless2.png"/>
+      <div class="ad-text"> Blue Chocolate <br /> <b>$34.99</b></div>
+      <img class="rating" src="images/4star.png"/>
+    </div>
+    <div class="col-md-4">
+      <img src="tshirts/emojitshirt-slevelss3.png"/>
+      <div class="ad-text"> Brick Brother <br /> <b>$29.99</b></div>
+      <img class="rating" src="images/4star.png"/>
+    </div>
+  </div><!-- end of bestsellers -->
+
+
+<div class="row footer">
+    <div class="col-md-4 quick-links">
+          <h4> Quick Links </h4>
+          <ul class="list-group">
+            <li class="list-group-item">About Shipping</li>
+            <li class="list-group-item">Shipping Rates</li>
+            <li class="list-group-item">Return Policy</li>
+            <li class="list-group-item">Payment Policy</li>
+          </ul>
+        </div> <!-- end help-sec -->
+        <div class="col-md-4 help">
+          <h4> Help </h4>
+          <ul class="list-group">
+            <li class="list-group-item">Contact Us</li>
+            <li class="list-group-item">FAQ</li>
+            <li class="list-group-item">Gift Card</li>
+            <li class="list-group-item">Size Guide</li>
+          </ul>
+        </div><!-- end info-sec -->
+        <div class="col-md-4 connect">
+          <h4> Connect With Us </h4>
+          <img class="facebook" src="images/facebook.png"/>
+          <img src="images/twitter.png"/>
+          <img src="images/pinterest.png"/>
+        </div> <!-- end connect>  
+  </div> <!-- end footer -->
+
+  </div>  <!-- end of container-fluid -->
+  </body>
+  </html>

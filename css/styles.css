@@ -45,21 +45,21 @@
 .bx-wrapper {
   width: 65%;
 }
-.ads, .bestsellers  {
+.ads, .bestsellers, .frequently  {
   margin-left: 18%;
 }
 
-.ads img, .bestsellers img {
+.ads img, .bestsellers img, .frequently img {
   width: 150px;
   margin-top: 20px;
 }
-.ads div.ad-text, .bestsellers div.ad-text {
+.ads div.ad-text, .bestsellers div.ad-text, .frequently div.ad-text {
   width: 120px;
   text-align: center;
   margin-left: 45px;
   padding: 10px 0;
 }
-.ads .col-md-4, .bestsellers .col-md-4 {
+.ads .col-md-4, .bestsellers .col-md-4, .frequently .col-md-4 {
   text-align: center;
   width: 220px;
   border: 1px solid #ccc;
@@ -68,17 +68,17 @@
 .ads .btn {
   margin-bottom: 20px;
 }
-.bestsellers-ad {
+.bestsellers-ad, .frequently-ad {
   border-bottom: 1px solid #ccc;
   margin-left: 17%;
   margin-top: 30px;
   width: 65%;
 }
-.bestsellers {
+.bestsellers, .frequently {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.bestsellers-ad .col-md-6:last-child {
+.bestsellers-ad .col-md-6:last-child, .frequently-ad .col-md-6:last-child {
   text-align: right;
 }
 .footer {
@@ -121,6 +121,8 @@
  .tee-description {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
+  width: 900px;
+  margin: 0 auto;
  }
  .image img {
   width: 300px;
@@ -140,7 +142,7 @@
   font-size: 20px;
  }
  .title img {
-  width: 12%;
+  width: 25%;
  }
  .price {
   font-size: 18px;
@@ -151,14 +153,11 @@
  .size {
   margin: 30px 0;
  }
- .image {
-  padding-left: 580px;
- }
  .image div {
   text-align: center;
   width: 300px;
  }
- .buy-btn {
+ .buy-btn, .submit-btn {
   font-size: 18px;
   padding: 10px 25px;
   background-color: #ec971f;
@@ -171,12 +170,15 @@
  }
  .size .btn-primary:focus, .size .btn-primary:active, 
  .size .btn-primary.active, 
- .size .open>.dropdown-toggle.btn-primary {
+ .size .open>.dropdown-toggle.btn-primary,
+ .quantity .btn-primary:focus, .quantity .btn-primary:active, 
+ .quantity .btn-primary.active, 
+ .quantity .open>.dropdown-toggle.btn-primary {
   background-color: transparent;
   color: black;
   border-color: black;
  }
- .size .btn {
+ .size .btn, .quantity .btn {
   background-color: transparent;
   color: black;
   border-color: black;
@@ -186,9 +188,6 @@
  }
  .desc h4 {
   margin-top: 20px;
- }
- .description {
-  width: 50%;
  }
  .details {
   margin: 40px 0;
@@ -203,7 +202,177 @@
  }
  .details .right-details {
   width: 27%;
-  margin-left: 20px;
+  margin-left: 50px;
   border-left: 1px solid #ccc; 
 }
+
+/* Shopping Cart Page */
+div.cart h3 {
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+table.cart {
+  width:60%;
+  margin-left: 20%;
+  margin-bottom: 0;
+}
+table.cart td img {
+  width: 50px;
+}
+table.cart td, table.cart td img {
+  vertical-align: top;
+}
+div.calculate-ship {
+  text-align: center;
+}
+div.country, div.zipcode {
+  display: inline-block;
+}
+div.quote {
+  width: 30%;
+  margin-left: 35%;
+}
+div.quote .form-group {
+  margin-left: 20px;
+}
+img.rating {
+  width: 60%;
+  margin-top: 0;
+}
+
+/* Review Page */
+img.review {
+  width: 30%;
+}
+div.reviewer div {
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+div.reviews {
+  margin-top: 10px;
+}
+.review-header {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+img.rate-tee {
+  width: 280px;
+}
+.right-reviews {
+  float: right;
+}
+.write-review {
+  margin-top: 30px;
+}
+.like {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.write-reviews input {
+  margin-bottom: 20px;
+}
+.write-reviews .submit-btn {
+  margin-top: 20px;
+}
+.reviewer .buy-btn {
+  margin-left: 70px;
+}
+.review-header h3 {
+  margin-left: 30%;
+}
+
+/* Payment Page */
+
+.payment, .billing, .registration {
+  margin-left: 30%;
+}
+.payment h3 {
+  margin-bottom: 20px;
+}
+.payment .radio h3 {
+  margin-bottom: 10px;
+}
+.payment .dropdown {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.payment .btn {
+  border-radius: 0;
+  margin-top: 10px;
+}
+.payment .dropdown img {
+  width: 200px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.payment .card-num,
+.payment .verify {
+  width: 20%;
+  display: inline;
+}
+.payment .verify {
+  margin-left: 6px;
+}
+.payment .month,
+.payment .year,
+.payment .card-type {
+  display: inline;
+}
+.payment button.btn.btn-primary.dropdown-toggle {
+  background-color: transparent;
+  color: black;
+  border-color: #ccc;
+}
+.payment input {
+  border-radius: 0;
+}
+.payment .card-entry {
+  margin-top: 20px;
+}
+.payment label.card-type, .payment label.expiry {
+  vertical-align: bottom;
+}
+.payment .paypal {
+  margin-top: 40px;
+}
+.billing input {
+  width: 50%;
+}
+.total {
+  margin-top: 10%;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
+.billing-checkout {
+  margin-left: 60px;
+  display: block;
+}
+.page-checkout {
+  border-radius: 0;
+  margin-left: 20px;
+}
+
+/* Registration */
+.forgot {
+  padding-left: 35px;
+}
+.registration {
+  display: block;
+  margin-top: 20px;
+  width: 50%;
+}
+.registration input {
+  width: 60%;
+}
+.register {
+  display: block;
+  margin-top: 20px;
+  width: 65%
+}
+
+
 
