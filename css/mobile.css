@@ -78,4 +78,10 @@
   .billing input {
     width: 80%;
   }
+  .title img {
+    display: block;
+  }
+  div.description {
+    width: 362px;
+  }
 }
